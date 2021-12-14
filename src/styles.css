@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.player {
+  display: flex;
+  flex-flow: column;
+  height: 300px;
+  width: 300px;
+}
+
+.player img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 24px;
+}
+
+.timer {
+  margin-top: 12px;
+  font-size: 40px;
+}
+
+.marker {
+  position: fixed;
+  height: 10px;
+  background: red;
+  margin: 20px 0;
+  bottom: 0;
+  transition: 0.3s width ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+}

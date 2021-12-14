@@ -1,0 +1,40 @@
+like-button-container {
+  display: flex;
+  align-items: center;
+}
+
+.like-button {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.like-button:hover {
+  background: #f6f6f6;
+}
+
+.like-button:hover svg {
+  transform: rotate(45deg);
+}
+
+.like-button svg {
+  height: 48px;
+  width: 48px;
+  transition: 0.3s transform ease-in-out;
+}
+
+.like-button svg path {
+  fill: #3381e1;
+}
+
+.like-button-counter {
+  margin-left: 28px;
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  color: #292929;
+}
